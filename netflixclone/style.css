@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/fbf440b2-24a0-49f5-b2ba-a5cbe8ea8736/web/IN-en-20250324-TRIFECTA-perspective_d7c906ec-0531-47de-8ece-470d5061c88a_large.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+
+}
+
+body {
+    background-color: black;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    /* padding:16px 0; */
+}
+
+nav img {
+    /* height: 50px; */
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.h {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* font-size: ; */
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+    /* text-align: center; */
+
+}
+
+.h> :first-child {
+    font-size: 50px;
+    font-weight: bolder;
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+
+.h> :nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.h> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sep {
+    height: 5px;
+    background-color: rgb(45, 45, 45);
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    /* font-family: poppins; */
+    color: white;
+    background-color: rgba(240, 240, 240, 0.072);
+    /* border: 1px solid white; */
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.redsign {
+    background-color: red;
+    color: white;
+
+}
+
+.redbtn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 24px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main input {
+    color: white;
+    border-radius: 5px;
+    padding: 7px 100px 8px 14px;
+    /* font-weight: 900; */
+    font-size: 12px;
+    background-color:
+        rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(240, 240, 240, 0.5);
+
+
+}
+
+.in-btns {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    /* margin-top: 20px; */
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    /* height: max-content; */
+
+
+}
+
+.secimg {
+    position: relative;
+    top: 0;
+    /* overflow: hidden; */
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.first>div :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    /* font-weight: bolder */
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.fbox {
+    display: flex;
+    background-color: grey;
+    padding: 24px;
+    max-width: 60vw;
+    width: 100%;
+    margin: 30px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 1s ease-out;
+
+
+
+
+}
+
+.fbox:hover {
+    background-color: rgb(17, 16, 16);
+
+
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+}
+
+@media screen and (max-width: 1300px) {
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        gap: 25px;
+    }
+}
+
+.questions {
+    /* font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px; */
+    padding: 34px 0;
+}
+
+.footeritem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    .first {
+        /* flex-direction: column;
+        gap: 20px; */
+        flex-wrap: wrap;
+    }
+
+    .secimg img {
+        width: 300px;
+
+        /* height: max-content; */
+
+
+
+    }
+
+    .secimg video {
+
+        width: 300px;
+    }
+
+    .h> :first-child {
+        font-size: 32px;
+    }
+
+    .h> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .h> :nth-child(3) {
+        font-size: 18px;
+    }
+    nav{
+        max-width: 90vw;
+    }
+   
+    .in-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        /* margin-top: 20px; */
+        align-items: center;}
+
+
+}
